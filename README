@@ -1,0 +1,12 @@
+﻿This is a 3D visualization of a Ulam spiral (https://en.wikipedia.org/wiki/Ulam_spiral).
+In this file, all prime numbers (and the number 1) are represented by solid cubes, while composite numbers are hollow cubes.
+The numbers are read by moving along the positive X direction, the negative Y direction, and the negative Z direction.
+For the sake of visual clarity 1 is represented as prime.
+To find the top 'plate' of this spiral, look for the only 3 consecutive solid cubes.
+The figure below represents the top 'plate' view the object left to right, top to bottom, top plate to bottom plate. 
+
+■ ■ ■ □ ■
+□ ■ □ □ □
+■ □ ■ □ □
+□ ■ □ ■ □
+□ □ ■ □ □
