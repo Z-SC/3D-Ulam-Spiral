@@ -102,8 +102,7 @@ for number in range (2, numCubes*numCubes*numCubes+1):
 		.translate((cubeSize*xoffset, -cubeSize*yoffset, -cubeSize*zoffset))
 		primes = prime.union(primes)
 
-#This offset is not working, currently I cant match up the skeleton to the cube set
 #cubePlanes = cubePlanes.translate((0,-cubeSize/2,0))
-primes = primes.translate((0,cubeSize*numCubes,cubeSize*numCubes))
+primes = primes.translate((0,cubeSize*numCubes-2*cubeSize,cubeSize*numCubes-cubeSize))
 show_object(primes, options={"rgba":(204, 204, 204, 0.0)})
 show_object(cubePlanes, options={"rgba":(204, 204, 204, 0.0)})
